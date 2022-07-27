@@ -1,0 +1,44 @@
+.manubar{
+    margin-left: 256px;
+}
+.manueffect:hover{
+    background-color: #CAD5E2;
+    border-radius: 5px;
+    color: #242B2E;
+}
+.company:hover{
+    color: #242B2E;
+}
+.company:active{
+    color: #758283;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no repeat scroll center ceroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h5{
+    font-size: 100px;
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+}
