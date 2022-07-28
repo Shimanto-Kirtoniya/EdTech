@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <nav class="container navbar navbar-expand-lg bg-light">
+      <nav class="container fixed-top navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand company fw-bold fs-1" href="#">Pro Edu</a>
           <button
@@ -55,7 +55,7 @@
       </nav>
       <!-- Navication end -->
       <!-- Carousel start -->
-      <section>
+      <section style="margin-top: 86px;">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -340,7 +340,93 @@
           </div>
         </div>
       </section>
+
+      <!-- Asked questions start -->
+
+      <section class="container">
+        <div class=" mt-5 d-flex justify-content-center">
+          <span class="text-center w-50">
+            <h1>Frequently Asked Questions</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable
+              content of a page when looking at its layout.</p>
+          </span>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="accordion w-50" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What other services are you compatible with?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>The definition of compatibility means how well two things work or go together. When a couple and wife get along well and enjoy spending time together, this is an example of compatibility. When a printer works with your computer hardware, this is an example of compatibility.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  I have a technical i need resolved, who do i email?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Tips.</strong>
+                  <p>
+                    1.Start with Dear and the person's title and name. <br>
+                    2.Say what the problem is first. Then, give more details. <br>
+                    3.Make it short and clear. Just include the most important information. <br>
+                    4.Say Thank you for your understanding at the end. It shows that you hope the reader will understand your problems.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  how can solve easy bootstrap?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Web designers and web developers like Bootstrap because it is flexible and easy to work with. Its main advantages are that it is responsive by design, it maintains wide browser compatibility, it offers consistent design by using re-usable components, and it is very easy to use and quick to learn.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mt-5">
+        <h1 class="d-flex justify-content-center fw-bold">Trusted by over 800+ companies</h1>
+        <div class="d-flex justify-content-evenly mt-5">
+          <img class="company-logo me-5" src="images/company/company-1.png" alt="">
+          <img class="company-logo me-5" src="images/company/company-1.png" alt="">
+          <img class="company-logo me-5" src="images/company/company-3.png" alt="">
+          <img class="company-logo me-5" src="images/company/company-4.png" alt="">
+          <img class="company-logo me-5" src="images/company/company-5.png" alt="">
+          <img class="company-logo me-5" src="images/company/company-6.png" alt="">
+        </div>
+      </section>
     </main>
+
+    <footer class="bg-dark mt-5 d-flex align-items-center justify-content-center" style="height: 200px;">
+      <div class="text-light lh-1 w-50 text-center">
+        <div>
+          <h2 class="fw-bold">Pro Edu</h2>
+          <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+          <small>Privacy Ploicy | Terms of use</small>
+        </div>
+        <div class="mt-3">
+          <i class="fa-brands me-3 fa-facebook"></i>
+          <i class="fa-brands me-3 fa-twitter"></i>
+          <i class="fa-brands me-3 fa-linkedin"></i>
+          <i class="fa-brands me-3 fa-tiktok"></i>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
