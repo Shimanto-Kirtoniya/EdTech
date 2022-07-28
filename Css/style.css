@@ -14,7 +14,7 @@
 }
 .carousel-item{
     height: 100%;
-    /* min-height: 300px; */
+    min-height: 300px;
     background: no repeat scroll center ceroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -51,4 +51,13 @@
     color: white;
     border-radius: 10px;
     margin-top: 100px;
+}
+.meet-our{
+    width: 534px;
+}
+.rating-star{
+    color: gold;
+}
+.fa-star{
+    color: gold;
 }
